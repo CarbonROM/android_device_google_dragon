@@ -1,0 +1,7 @@
+[
+    {
+      "remote"     : "carbon",
+      "repository" : "CarbonROM/android_kernel_google_dragon",
+      "target_path": "kernel/google/dragon"
+    }
+]
