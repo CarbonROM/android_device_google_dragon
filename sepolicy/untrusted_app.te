@@ -1,0 +1,13 @@
+allow untrusted_app block_device:dir read;
+allow untrusted_app cgroup:dir read;
+allow untrusted_app configfs:dir read;
+allow untrusted_app debugfs:dir read;
+allow untrusted_app devpts:dir read;
+allow untrusted_app full_device:chr_file { read write };
+allow untrusted_app input_device:dir read;
+allow untrusted_app mtd_device:dir read;
+allow untrusted_app proc_iomem:file read;
+allow untrusted_app rootfs:dir { read write };
+allow untrusted_app rootfs:file read;
+allow untrusted_app self:dir write;
+allow untrusted_app sysfs:dir read;
